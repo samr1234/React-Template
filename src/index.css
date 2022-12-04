@@ -1,0 +1,260 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(44, 61, 79);
+    color:white;
+}
+
+.menu ul {
+
+    text-decoration: none;
+    list-style: none;
+    display:flex;
+    
+}
+
+.menu ul li{
+
+    margin:0.4rem;
+}
+
+/* **************************** */
+
+/* Section1  */
+.section1{
+
+    background-color: rgb(25, 188, 155);
+    padding:7rem 0rem;
+}
+
+.img1{
+
+    width:170px;
+    height:190px;
+    border-radius: 50%;
+    display: block; 
+    margin-left:auto; 
+    margin-right:auto;
+    
+}
+.img2{
+
+    width:70px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  
+
+}
+.section1 h1,h2{
+
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.3rem;
+    color:white;
+    font-style: bold;
+    font-size: 3.4rem;
+}
+
+.section1 h2{
+
+    font-size: 1.5rem;
+}
+
+/* **************************** */
+
+/* Sectin2  */
+
+
+.section2 h1{
+
+    text-align: center;
+    margin: 1.3rem;
+    color:rgb(44, 61, 79);
+    font-style: bold;
+    font-size: 3.4rem;
+}
+
+.section2 .parent{
+    
+        display: flex;
+        justify-content: space-around;
+        /* margin: 2rem; */
+        flex-wrap: wrap;
+}
+
+.section2 .parent .child{
+
+    /* border:2px solid green; */
+    width:380px;
+    height:260px;
+    background-color: bisque;
+    /* flex-basis: 30%; */
+    margin:2rem;
+    border-radius:10px;
+   
+}
+
+.parent .child img{
+
+    width:380px;
+    border-radius:10px;
+}
+
+/* **************** */
+
+/* About */
+
+.about{
+
+    background-color:rgb(25, 188, 155) ;
+    padding:3.3rem 0rem;
+    margin-top:2rem;
+}
+
+ .about h1{
+
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.3rem;
+    color:white;
+    font-style: bold;
+    font-size: 3.2rem;
+   
+
+}
+.about div{
+
+    display: flex;
+   justify-content:center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.about div p{
+
+    width:370px;
+    margin:0 2rem;
+   text-align: justify;
+   color:white;
+   font-style: bold;
+   font-size:1.5rem;
+  
+}
+
+.about button{
+
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem 1.4rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color:transparent;
+    border:1px solid white;
+    color:white;
+}
+
+.about button:hover{
+
+    background-color: white;
+    color:rgb(25, 188, 155);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* ***************** */
+
+/* Form */
+
+.form h1{
+
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.3rem;
+    color:rgb(44, 61, 79);
+    font-style: bold;
+    font-size: 3.2rem;
+}
+
+form{
+  
+    text-align: center;
+
+}
+form input{
+    width:40%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border:none;
+    margin-bottom:2rem;
+    outline: none;
+    height:3rem;
+    border-bottom: 1px solid rgb(180, 13, 13);
+    /* padding:1rem 5rem; */
+    font-size:1.3rem;
+  
+}
+form textarea{
+
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border:none;
+    outline:none;
+    font-size:1.3rem;
+    border-bottom: 1px solid rgb(181, 28, 28);
+    /* width:37rem; */
+
+}
+
+form button{
+    margin:1.5rem;
+    padding:0.8rem 1.5rem;
+    border-radius: 10px;;
+    margin-right:31rem;
+    font-size: 1.5rem;
+    background-color:rgb(25, 188, 155) ;
+    color:white;
+    border: none;
+}
+form button:hover{
+
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* ****************** */
+
+/* Footer */
+
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(44, 61, 79) ;
+    padding:3rem 0rem;
+
+}
+.footer div{
+
+    width:300px;
+}
+
+.footer h3{
+
+    color:white;
+    margin-bottom: 1rem;
+   ;;
+
+}
